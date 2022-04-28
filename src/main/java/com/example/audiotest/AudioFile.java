@@ -10,6 +10,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import java.util.Date;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -27,4 +28,6 @@ public class AudioFile {
     private String s3Name;
 
     private String aa;
+
+    private Date playTime;
 }

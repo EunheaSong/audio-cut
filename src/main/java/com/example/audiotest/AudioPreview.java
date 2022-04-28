@@ -8,6 +8,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 @Setter
 @Getter
@@ -22,5 +24,5 @@ public class AudioPreview {
 
     private String s3Name;
 
-
+    private SimpleDateFormat playTime;
 }
