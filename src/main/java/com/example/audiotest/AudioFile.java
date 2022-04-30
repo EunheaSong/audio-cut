@@ -27,7 +27,5 @@ public class AudioFile {
 
     private String s3Name;
 
-    private String aa;
-
     private Date playTime;
 }
